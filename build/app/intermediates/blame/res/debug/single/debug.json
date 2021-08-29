@@ -40,10 +40,6 @@
         "source": "C:\\Dev\\Si Penak Project\\sipenak_app\\android\\app\\src\\main\\res\\mipmap-hdpi\\splash.png"
     },
     {
-        "merged": "C:\\Dev\\Si Penak Project\\sipenak_app\\build\\app\\intermediates\\res\\merged\\debug\\drawable_splash.png.flat",
-        "source": "C:\\Dev\\Si Penak Project\\sipenak_app\\android\\app\\src\\main\\res\\drawable\\splash.png"
-    },
-    {
         "merged": "C:\\Dev\\Si Penak Project\\sipenak_app\\build\\app\\intermediates\\res\\merged\\debug\\layout_notification_template_part_time.xml.flat",
         "source": "C:\\Users\\Asus\\.gradle\\caches\\transforms-2\\files-2.1\\ffee573e590287cc51792a756a77faf3\\core-1.1.0\\res\\layout\\notification_template_part_time.xml"
     },
@@ -74,6 +70,10 @@
     {
         "merged": "C:\\Dev\\Si Penak Project\\sipenak_app\\build\\app\\intermediates\\res\\merged\\debug\\layout_notification_action.xml.flat",
         "source": "C:\\Users\\Asus\\.gradle\\caches\\transforms-2\\files-2.1\\ffee573e590287cc51792a756a77faf3\\core-1.1.0\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Dev\\Si Penak Project\\sipenak_app\\build\\app\\intermediates\\res\\merged\\debug\\drawable_icon.png.flat",
+        "source": "C:\\Dev\\Si Penak Project\\sipenak_app\\android\\app\\src\\main\\res\\drawable\\icon.png"
     },
     {
         "merged": "C:\\Dev\\Si Penak Project\\sipenak_app\\build\\app\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",

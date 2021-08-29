@@ -64,7 +64,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\As
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\ffee573e590287cc51792a756a77faf3\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from C:\Dev\Si Penak Project\sipenak_app\android\app\src\main\AndroidManifest.xml:11:9-36
+		ADDED from C:\Dev\Si Penak Project\sipenak_app\android\app\src\main\AndroidManifest.xml:11:9-33
 	android:icon
 		ADDED from C:\Dev\Si Penak Project\sipenak_app\android\app\src\main\AndroidManifest.xml:12:9-38
 	android:name

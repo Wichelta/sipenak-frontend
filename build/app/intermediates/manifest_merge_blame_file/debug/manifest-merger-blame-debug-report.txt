@@ -31,10 +31,10 @@
 25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 25-->[androidx.core:core:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\ffee573e590287cc51792a756a77faf3\core-1.1.0\AndroidManifest.xml:24:18-86
 26        android:debuggable="true"
-27        android:icon="@mipmap/splash"
+27        android:icon="@drawable/icon"
 27-->C:\Dev\Si Penak Project\sipenak_app\android\app\src\main\AndroidManifest.xml:12:9-38
-28        android:label="sipenak_app" >
-28-->C:\Dev\Si Penak Project\sipenak_app\android\app\src\main\AndroidManifest.xml:11:9-36
+28        android:label="Si Penak" >
+28-->C:\Dev\Si Penak Project\sipenak_app\android\app\src\main\AndroidManifest.xml:11:9-33
 29        <activity
 29-->C:\Dev\Si Penak Project\sipenak_app\android\app\src\main\AndroidManifest.xml:13:9-42:20
 30            android:name="com.example.sipenak_app.MainActivity"

@@ -25,8 +25,8 @@
         android:name="io.flutter.app.FlutterApplication"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
-        android:icon="@mipmap/splash"
-        android:label="sipenak_app" >
+        android:icon="@drawable/icon"
+        android:label="Si Penak" >
         <activity
             android:name="com.example.sipenak_app.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
