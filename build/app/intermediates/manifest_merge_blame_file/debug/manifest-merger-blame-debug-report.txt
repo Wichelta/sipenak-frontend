@@ -1,0 +1,130 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.sipenak_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Dev\Si Penak Project\sipenak_app\android\app\src\main\AndroidManifest.xml:3:5-66
+14-->C:\Dev\Si Penak Project\sipenak_app\android\app\src\main\AndroidManifest.xml:3:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[:connectivity_plus] C:\Dev\Si Penak Project\sipenak_app\build\connectivity_plus\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
+15-->[:connectivity_plus] C:\Dev\Si Penak Project\sipenak_app\build\connectivity_plus\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-76
+16    <!--
+17 io.flutter.app.FlutterApplication is an android.app.Application that
+18         calls FlutterMain.startInitialization(this); in its onCreate method.
+19         In most cases you can leave this as-is, but you if you want to provide
+20         additional functionality it is fine to subclass or reimplement
+21         FlutterApplication and put your custom class here.
+22    -->
+23    <application
+23-->C:\Dev\Si Penak Project\sipenak_app\android\app\src\main\AndroidManifest.xml:9:5-48:19
+24        android:name="io.flutter.app.FlutterApplication"
+24-->C:\Dev\Si Penak Project\sipenak_app\android\app\src\main\AndroidManifest.xml:10:9-57
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.1.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\ffee573e590287cc51792a756a77faf3\core-1.1.0\AndroidManifest.xml:24:18-86
+26        android:debuggable="true"
+27        android:icon="@mipmap/splash"
+27-->C:\Dev\Si Penak Project\sipenak_app\android\app\src\main\AndroidManifest.xml:12:9-38
+28        android:label="sipenak_app" >
+28-->C:\Dev\Si Penak Project\sipenak_app\android\app\src\main\AndroidManifest.xml:11:9-36
+29        <activity
+29-->C:\Dev\Si Penak Project\sipenak_app\android\app\src\main\AndroidManifest.xml:13:9-42:20
+30            android:name="com.example.sipenak_app.MainActivity"
+30-->C:\Dev\Si Penak Project\sipenak_app\android\app\src\main\AndroidManifest.xml:14:13-41
+31            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+31-->C:\Dev\Si Penak Project\sipenak_app\android\app\src\main\AndroidManifest.xml:17:13-163
+32            android:hardwareAccelerated="true"
+32-->C:\Dev\Si Penak Project\sipenak_app\android\app\src\main\AndroidManifest.xml:18:13-47
+33            android:launchMode="singleTop"
+33-->C:\Dev\Si Penak Project\sipenak_app\android\app\src\main\AndroidManifest.xml:15:13-43
+34            android:theme="@style/LaunchTheme"
+34-->C:\Dev\Si Penak Project\sipenak_app\android\app\src\main\AndroidManifest.xml:16:13-47
+35            android:windowSoftInputMode="adjustResize" >
+35-->C:\Dev\Si Penak Project\sipenak_app\android\app\src\main\AndroidManifest.xml:19:13-55
+36
+37            <!--
+38                 Specifies an Android theme to apply to this Activity as soon as
+39                 the Android process has started. This theme is visible to the user
+40                 while the Flutter UI initializes. After that, this theme continues
+41                 to determine the Window background behind the Flutter UI.
+42            -->
+43            <meta-data
+43-->C:\Dev\Si Penak Project\sipenak_app\android\app\src\main\AndroidManifest.xml:24:13-27:17
+44                android:name="io.flutter.embedding.android.NormalTheme"
+44-->C:\Dev\Si Penak Project\sipenak_app\android\app\src\main\AndroidManifest.xml:25:15-70
+45                android:resource="@style/NormalTheme" />
+45-->C:\Dev\Si Penak Project\sipenak_app\android\app\src\main\AndroidManifest.xml:26:15-52
+46
+47            <!--
+48                 Displays an Android View that continues showing the launch screen
+49                 Drawable until Flutter paints its first frame, then this splash
+50                 screen fades out. A splash screen is useful to avoid any visual
+51                 gap between the end of Android's launch screen and the painting of
+52                 Flutter's first frame.
+53            -->
+54            <meta-data
+54-->C:\Dev\Si Penak Project\sipenak_app\android\app\src\main\AndroidManifest.xml:34:13-37:17
+55                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+55-->C:\Dev\Si Penak Project\sipenak_app\android\app\src\main\AndroidManifest.xml:35:15-79
+56                android:resource="@drawable/launch_background" />
+56-->C:\Dev\Si Penak Project\sipenak_app\android\app\src\main\AndroidManifest.xml:36:15-61
+57
+58            <intent-filter>
+58-->C:\Dev\Si Penak Project\sipenak_app\android\app\src\main\AndroidManifest.xml:38:13-41:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->C:\Dev\Si Penak Project\sipenak_app\android\app\src\main\AndroidManifest.xml:39:17-68
+59-->C:\Dev\Si Penak Project\sipenak_app\android\app\src\main\AndroidManifest.xml:39:25-66
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->C:\Dev\Si Penak Project\sipenak_app\android\app\src\main\AndroidManifest.xml:40:17-76
+61-->C:\Dev\Si Penak Project\sipenak_app\android\app\src\main\AndroidManifest.xml:40:27-74
+62            </intent-filter>
+63        </activity>
+64        <!--
+65             Don't delete the meta-data below.
+66             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+67        -->
+68        <meta-data
+68-->C:\Dev\Si Penak Project\sipenak_app\android\app\src\main\AndroidManifest.xml:45:9-47:33
+69            android:name="flutterEmbedding"
+69-->C:\Dev\Si Penak Project\sipenak_app\android\app\src\main\AndroidManifest.xml:46:13-44
+70            android:value="2" />
+70-->C:\Dev\Si Penak Project\sipenak_app\android\app\src\main\AndroidManifest.xml:47:13-30
+71
+72        <provider
+72-->[:image_picker] C:\Dev\Si Penak Project\sipenak_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+73            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+73-->[:image_picker] C:\Dev\Si Penak Project\sipenak_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-82
+74            android:authorities="com.example.sipenak_app.flutter.image_provider"
+74-->[:image_picker] C:\Dev\Si Penak Project\sipenak_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
+75            android:exported="false"
+75-->[:image_picker] C:\Dev\Si Penak Project\sipenak_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+76            android:grantUriPermissions="true" >
+76-->[:image_picker] C:\Dev\Si Penak Project\sipenak_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+77            <meta-data
+77-->[:image_picker] C:\Dev\Si Penak Project\sipenak_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
+78                android:name="android.support.FILE_PROVIDER_PATHS"
+78-->[:image_picker] C:\Dev\Si Penak Project\sipenak_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+79                android:resource="@xml/flutter_image_picker_file_paths" />
+79-->[:image_picker] C:\Dev\Si Penak Project\sipenak_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
+80        </provider>
+81
+82        <activity
+82-->[:url_launcher] C:\Dev\Si Penak Project\sipenak_app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+83            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+83-->[:url_launcher] C:\Dev\Si Penak Project\sipenak_app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+84            android:exported="false"
+84-->[:url_launcher] C:\Dev\Si Penak Project\sipenak_app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+85            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+85-->[:url_launcher] C:\Dev\Si Penak Project\sipenak_app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+86    </application>
+87
+88</manifest>
